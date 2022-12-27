@@ -1,0 +1,23 @@
+// Primero corro npm init -y 
+
+// instalar bootstrap npm install bootstrap@5.2.2
+
+// importar los modulos de bootstrap, en la pagina ir a costumize despues a sasas ahi esta la linea de codigo para importar 
+// Se debe compilar , y el objetivo es utlizar las mismas variables delcarADAS EN SASS y automaticamente ser reemplazadas en bootstraps
+// Es decir q las variables de bootstrap úeden ser sobre escritas 
+
+// Para purgar css se debe instalar 
+// npm i -g purgecss
+
+//purgecss --css <achivo q optimiza> --content <aarchivo q utiliza css> --out <nuevo archivo de salida>
+
+// Ahora en pagkage.json en la parte de script se pone build y se copia el comando 
+// 
+
+
+/* "scripts": {
+    "build": "purgecss --css CSS/estilos.css --content index.html -o CSS/reducido.css   "
+  }, */
+
+
+//Despues ejecutar npm run build  

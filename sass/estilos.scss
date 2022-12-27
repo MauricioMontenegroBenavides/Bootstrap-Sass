@@ -1,0 +1,39 @@
+
+$font-family-sans-serif:'Barlow', sans-serif;
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+  
+
+@media (min-width: 1079px) { 
+
+
+    .amor{
+
+        height: 100vh;
+    }
+}
+
+.d-flex img{
+
+    width:40px
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
